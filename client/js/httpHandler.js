@@ -17,16 +17,19 @@
   }
   setInterval(ajaxGetRequest, 1000);
 
-  var ajaxGetRequestimg = () => {
-    $.ajax({
-      type: 'GET',
-      url: serverUrl + '/background',
-      success: (data) => {
-        $('body').append(data);
-      }
-    });
-  }
-  ajaxGetRequestimg();
+
+  // var ajaxGetRequestimg = () => {
+  //   $.ajax({
+  //     type: 'GET',
+  //     url: serverUrl + '/background',
+  //     success: (data) => {
+  //       var newImage = document.createElement('img');
+  //       newImage.setAttribute('src',`data:image/png;based64, ${data}`);
+  //       $('body').append(newImage);
+  //     }
+  //   });
+  // }
+  // ajaxGetRequestimg();
 
 
   /////////////////////////////////////////////////////////////////////

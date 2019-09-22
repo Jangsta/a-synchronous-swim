@@ -10,6 +10,7 @@ h3 {
   padding: 100px;
   height: 202px;
   width: 622px;
+  background-image: url(http://127.0.0.1:3000/background.jpg);
 }
 .background {
   background-image: url(http://127.0.0.1:3000/background.jpg);
